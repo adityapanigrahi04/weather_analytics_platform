@@ -1,0 +1,20 @@
+snowflake:
+  account: "${SNOWFLAKE_ACCOUNT}"
+  user: "${SNOWFLAKE_USER}"
+  password: "${SNOWFLAKE_PASSWORD}"
+  role: "WEATHER_ENGINEER"
+  warehouse: "WH_WEATHER"
+  database: "WEATHER_DW"
+  schema_raw: "RAW"
+  schema_curated: "CURATED"
+
+api:
+  weather_url: "https://api.open-meteo.com/v1/forecast"
+  latitude: 37.7749
+  longitude: -122.4194
+  hourly: "temperature_2m,relative_humidity_2m,precipitation,pressure_msl,windspeed_10m"
+
+pipeline:
+  batch_size: 5000
+  max_retries: 3
+  retry_wait_seconds: 5

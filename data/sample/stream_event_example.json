@@ -1,0 +1,3 @@
+{"event_ts":"2026-02-22T10:00:00","location_id":"SF001","event_type":"STORM","severity":"HIGH"}
+{"event_ts":"2026-02-22T10:04:00","location_id":"SF001","event_type":"RAIN","severity":"MEDIUM"}
+{"event_ts":"2026-02-22T10:08:00","location_id":"SF002","event_type":"WIND","severity":"LOW"}
